@@ -1,0 +1,32 @@
+{% extends "template.html" %}
+
+{% set page="home" %}
+
+{% block meta %}
+  <title>Emeka Momodu</title>
+  <meta content="Personal Website of Emeka Momodu" name="description">
+  <meta content="Emeka Momodu" name="keywords">
+{% endblock %}
+
+{% block content %}
+
+  <!-- ======= About Section ======= -->
+  <section id="about" class="about">
+
+    {% include "parts/about-me.html" %}
+    
+    {% include "parts/skills.html" %}
+
+    {% include "parts/interests.html" %}
+
+  </section><!-- End About Section -->
+
+  {% include "parts/resume-section.html" %}
+
+  {% include "parts/services-section.html" %}
+
+  {% include "parts/portfolio-section.html" %}
+
+  {% include "parts/contact-section.html" %}
+
+{% endblock %}
