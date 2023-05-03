@@ -33,6 +33,7 @@
     "gulp-inject-string": "^1.1.2",
     "gulp-nunjucks": "^5.1.0",
     "gulp-sass": "^4.1.0",
-    "merge-stream": "^2.0.0"
+    "merge-stream": "^2.0.0",
+    "node-sass": "^8.0.0"
   }
 }
